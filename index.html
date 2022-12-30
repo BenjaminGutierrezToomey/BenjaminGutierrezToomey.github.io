@@ -81,7 +81,7 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-5 px-5 pl-lg-0 pb-5 pb-lg-0">
-                    <img class="img-fluid w-100 rounded-circle shadow-sm" src="img/profile.jpg" alt="">
+                    <img class="img-fluid w-100 rounded-circle shadow-sm" src="img/profile.jpg" alt="Profile picture">
                 </div>
                 <div class="col-lg-7 text-center text-lg-left">
                     <h3 class="text-white font-weight-normal mb-3">I'm</h3>
@@ -106,7 +106,7 @@
             </div>
             <div class="row align-items-center">
                 <div class="col-lg-5 pb-4 pb-lg-0">
-                    <img class="img-fluid rounded w-100" src="img/about.jpg" alt="">
+                    <img class="img-fluid rounded w-100" src="img/about.jpg" alt="Picture of me working">
                 </div>
                 <div class="col-lg-7">
                     <h3 class="mb-4">Geology Student & GIS Analyst</h3>
@@ -254,47 +254,58 @@
     </div>
     <!-- Skill End -->
 
-        <!-- Portfolio Start -->
-        <div class="container-fluid pt-5 pb-3" id="portfolio">
-            <div class="container">
-                <div class="position-relative d-flex align-items-center justify-content-center">
-                    <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Gallery</h1>
-                    <h1 class="position-absolute text-uppercase text-primary">My Portfolio</h1>
+    <!-- Portfolio Start -->
+    <div class="container-fluid pt-5 pb-3" id="portfolio">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Gallery</h1>
+                <h1 class="position-absolute text-uppercase text-primary">My Portfolio</h1>
+            </div>
+            <div class="row">
+                <div class="col-12 text-center mb-2">
+                    <ul class="list-inline mb-4" id="portfolio-flters">
+                        <li class="btn btn-sm btn-outline-primary m-1 active"  data-filter="*">All</li>
+                        <li class="btn btn-sm btn-outline-primary m-1" data-filter=".first">Data Science</li>
+                        <li class="btn btn-sm btn-outline-primary m-1" data-filter=".second">GIS</li>
+                        <li class="btn btn-sm btn-outline-primary m-1" data-filter=".third">Web development</li>
+                    </ul>
                 </div>
-                <div class="row">
-                    <div class="col-12 text-center mb-2">
-                        <ul class="list-inline mb-4" id="portfolio-flters">
-                            <li class="btn btn-sm btn-outline-primary m-1 active"  data-filter="*">All</li>
-                            <li class="btn btn-sm btn-outline-primary m-1" data-filter=".first">Data Science</li>
-                            <li class="btn btn-sm btn-outline-primary m-1" data-filter=".second">GIS</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="row portfolio-container">
-                    <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
-                        <div class="position-relative overflow-hidden mb-2">
-                            <img class="img-fluid rounded w-100" src="img/qgis_portfolio.png" alt="QGIS">
-                            <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
-                                <a href="img/portfolio-1.jpg" data-lightbox="portfolio">
-                                    <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
-                                </a>
-                            </div>
+            </div>
+            <div class="row portfolio-container">
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="img/qgis_portfolio.png" alt="Huantraicó geological map">
+                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                            <a href="https://github.com/BenjaminGutierrezToomey/Mapa-Huantraico" target="_blank">
+                                <p class="text-white text-portfolio font-weight-bold" style="font-size: 25px;">Huantriacó geological map</p>
+                            </a>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">
-                        <div class="position-relative overflow-hidden mb-2">
-                            <img class="img-fluid rounded w-100" src="img/portfolio-2.jpg" alt="">
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item third">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="img/cv_portfolio.png" alt="CV">
                             <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
-                                <a href="img/portfolio-2.jpg" data-lightbox="portfolio">
-                                    <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
-                                </a>
-                            </div>
+                                <a href="https://github.com/BenjaminGutierrezToomey/BenjaminGutierrezToomey.github.io" target="_blank">
+                                    <p class="text-white text-portfolio font-weight-bold" style="font-size: 25px;">Personal portfolio website</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="img/dengue_portfolio.png" alt="Dengue cases">
+                            <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                                <a href="https://github.com/BenjaminGutierrezToomey/Casos-de-dengue-en-Argentina" target="_blank">
+                                    <p class="text-white text-portfolio font-weight-bold" style="font-size: 25px;">Dengue cases in Argentina</p>
+                            </a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- Portfolio End -->
+    </div>
+    <!-- Portfolio End -->
 
     <!-- Contact Start --->
     <div class="container-fluid py-5" id="contact">

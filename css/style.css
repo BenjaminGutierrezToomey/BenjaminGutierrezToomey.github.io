@@ -159,7 +159,7 @@ a {
 
 a:hover {
   color: #078571;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 a:not([href]):not([class]) {
@@ -9522,6 +9522,10 @@ button.bg-dark:focus {
 
 .text-white {
   color: #fff !important;
+}
+
+.text-portfolio{
+  text-align: center;
 }
 
 .text-primary {
